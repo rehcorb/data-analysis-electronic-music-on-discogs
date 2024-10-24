@@ -1,7 +1,7 @@
 # Discogs Electronic Music Data Analysis (1990-2000)
 **Project Overview**
 
-This project focuses on performing detailed data analysis on electronic music data from Discogs, covering the period from 1990 to 2000. The goal is to uncover trends, analyze artist popularity, genre distribution, 
+This project focuses on performing detailed data analysis on electronic music records data from Discogs, covering the period from 1990 to 2000. The goal is to uncover trends, analyze artist popularity, genre distribution, 
 and pricing patterns within the electronic music market. The dataset used for this analysis was sourced from Kaggle : 
 https://www.kaggle.com/datasets/justinpakzad/discogs-electronic-music-dataset-1990-2000/data
 
