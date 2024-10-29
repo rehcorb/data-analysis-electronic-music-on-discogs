@@ -52,6 +52,7 @@ Analyze key trends such as:
 **Tools & Technologies**
 - Power BI: For data visualization and reporting.
 - Power Query: For data transformation and cleaning.
+- Python : For Jupyter notebooks.
 
 **Analysis Goals**
 
