@@ -36,6 +36,7 @@ The dataset includes the following fields:
 - README.md: This file, explaining the project and how to use it.
 
 **How to Use**
+
 - Clone the repository:
 git clone https://github.com/rehcorb/data-analysis-electronic-music-on-discogs.git
 
@@ -51,12 +52,14 @@ Analyze key trends such as:
    - The relationship between "wants," "haves," and pricing.
  
 **Tools & Technologies**
+
 - Power BI: For data visualization and reporting.
 - Power Query: For data transformation and cleaning.
 - Dax Studio: For cleaned data exportation in csv. 
 - Python : For Jupyter notebooks.
 
 **Data Transformation and Cleaning**
+
 In Power Query, I performed several data transformations to prepare the dataset for analysis:
 
 - Country: When the country field was empty, I assigned the value "Unknown" to maintain consistency across records.
