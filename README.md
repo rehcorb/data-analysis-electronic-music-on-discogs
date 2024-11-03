@@ -30,7 +30,7 @@ The dataset includes the following fields:
 
 **Project Structure**
 
-- data:/: Contains the dataset, raw and cleaned. Data will be cleaned and transformed before use.
+- data/: Contains the dataset, raw and cleaned. Data will be cleaned and transformed before use.
 - notebooks/: Contains Jupyter notebooks used for preliminary exploration and analysis.
 - results/: Visualizations, summary data, and other outputs from the analysis.
 - README.md: This file, explaining the project and how to use it.
