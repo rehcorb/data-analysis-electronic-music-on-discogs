@@ -5,32 +5,32 @@ This project focuses on performing detailed data analysis on electronic music re
 and pricing patterns within the electronic music market. The dataset used for this analysis was sourced from Kaggle : 
 https://www.kaggle.com/datasets/justinpakzad/discogs-electronic-music-dataset-1990-2000/data
 
-We've utilized Power BI and Power Query for data cleaning, transformation, and visualization, providing insights into the evolution of the electronic music scene during this decade.
-We've used Dax Studio for cleaned data exportation in csv format. 
+I used Power BI and Power Query for data cleaning, transformation, and visualization, providing insights into the evolution of the electronic music scene during this decade.
+I used Dax Studio for cleaned data exportation in csv format. 
 
 **Dataset**
 
 The dataset includes the following fields:
 
-- Artist: The name of the music artist or group.
-- Title: The title of the music track or album.
-- Label: The label that published the track.
-- Country: The country of origin of the release.
-- Format: The format of the release (e.g., vinyl, CD, etc.).
-- Date: The release date of the music.
-- Genre: The primary music genre (focus on electronic music).
-- Subgenre: More specific subgenres of the music.
-- Want Count: Number of people who have added the release to their wishlist.
-- Have Count: Number of people who own the release.
-- Number of Ratings: The total number of user ratings for the release.
-- Average Rating: The average rating based on user input.
-- Lowest Price: The lowest recorded sale price of the release.
-- Median Price: The median price of the release.
-- Highest Price: The highest recorded sale price of the release.
+- artist: The name of the music artist or group.
+- title: The title of the music track or album.
+- label: The label that published the track.
+- country: The country of origin of the release.
+- format: The format of the release (e.g., vinyl, CD, etc.).
+- release_date: The release date of the music.
+- genre: The primary music genre (focus on electronic music).
+- styles: More specific subgenres of the music.
+- want: Number of people who have added the release to their wishlist.
+- have: Number of people who own the release.
+- num_ratings: The total number of user ratings for the release.
+- average_rating: The average rating based on user input.
+- lowest_price: The lowest recorded sale price of the release.
+- median_price: The median price of the release.
+- highest_price: The highest recorded sale price of the release.
 
 **Project Structure**
 
-- data:/: Contains the dataset. Data will be cleaned and transformed before use.
+- data:/: Contains the dataset, raw and cleaned. Data will be cleaned and transformed before use.
 - notebooks/: Contains Jupyter notebooks used for preliminary exploration and analysis.
 - results/: Visualizations, summary data, and other outputs from the analysis.
 - README.md: This file, explaining the project and how to use it.
@@ -55,6 +55,19 @@ Analyze key trends such as:
 - Power Query: For data transformation and cleaning.
 - Dax Studio: For cleaned data exportation in csv. 
 - Python : For Jupyter notebooks.
+
+**Data Transformation and Cleaning**
+In Power Query, I performed several data transformations to prepare the dataset for analysis:
+
+- Country: When the country field was empty, I assigned the value "Unknown" to maintain consistency across records.
+- Release Date: I simplified the date information to the release year only, to streamline analysis.
+- Price Fields (lowest_price, median_price, highest_price):
+  - Replaced commas with periods to standardize decimal format.
+  - Removed the $ sign to convert these fields to decimal format, making them suitable for numerical analysis.
+- Ratings and Price Data:
+  - If a record had no rating, I left it as null.
+  - For records without any sales data or price information, I set these values to null as well.
+After these transformations, I exported the cleaned dataset to CSV format using DAX Studio for further analysis.
 
 **Analysis Goals**
 
