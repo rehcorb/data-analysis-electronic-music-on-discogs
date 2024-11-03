@@ -5,7 +5,8 @@ This project focuses on performing detailed data analysis on electronic music re
 and pricing patterns within the electronic music market. The dataset used for this analysis was sourced from Kaggle : 
 https://www.kaggle.com/datasets/justinpakzad/discogs-electronic-music-dataset-1990-2000/data
 
-We will utilize Power BI and Power Query for data cleaning, transformation, and visualization, providing insights into the evolution of the electronic music scene during this decade.
+We've utilized Power BI and Power Query for data cleaning, transformation, and visualization, providing insights into the evolution of the electronic music scene during this decade.
+We've used Dax Studio for cleaned data exportation in csv format. 
 
 **Dataset**
 
@@ -44,7 +45,7 @@ Download the dataset from Kaggle and place it in the data/ directory, or use Pow
 - Run the Analysis:
 Use Power BI to load and transform the dataset, perform data cleaning, and create visualizations.
 Analyze key trends such as:
-   - Most popular artists and genres.
+   - Most popular artists and styles.
    - Release formats by country.
    - Price trends over time.
    - The relationship between "wants," "haves," and pricing.
@@ -52,6 +53,7 @@ Analyze key trends such as:
 **Tools & Technologies**
 - Power BI: For data visualization and reporting.
 - Power Query: For data transformation and cleaning.
+- Dax Studio: For cleaned data exportation in csv. 
 - Python : For Jupyter notebooks.
 
 **Analysis Goals**
