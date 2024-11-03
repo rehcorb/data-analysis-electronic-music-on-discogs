@@ -1,0 +1,4 @@
+pandas>=1.5.0        # For data manipulation and analysis
+numpy>=1.23.0        # For numerical operations
+matplotlib>=3.6.0    # For data visualization
+seaborn>=0.12.0      # For statistical data visualization
