@@ -32,6 +32,7 @@ The dataset includes the following fields:
 
 - data/: Contains the dataset, raw and cleaned. Data will be cleaned and transformed before use.
 - notebooks/: Contains Jupyter notebooks used for preliminary exploration and analysis.
+- scripts/: Contains Python code for cleaning.
 - results/: Visualizations, summary data, and other outputs from the analysis.
 - README.md: This file, explaining the project and how to use it.
 - requirements.txt : List of dependencies (for data manipulation and analysis, for numerical operations, for data visualization, for statistical data visualization).
