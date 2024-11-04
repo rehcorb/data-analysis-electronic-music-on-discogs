@@ -89,4 +89,4 @@ Here are some of the key analyses we plan to perform:
 
 **Contributing**
 
-Feel free to fork the project and submit pull requests if you'd like to contribute new analyses or improvements. Any suggestions to improve the analysis are welcome! :-)
+Feel free to fork the project and submit pull requests if you'd like to contribute new analyses or improvements. Any suggestions to enhance the analysis are welcome! :-) The goal is to continue the project with data from subsequent years, which will require web scraping (a skill I am still learning). Your help in this area would be greatly appreciated!
