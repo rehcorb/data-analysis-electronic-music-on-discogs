@@ -66,6 +66,7 @@ In Power Query, I performed several data transformations to prepare the dataset 
 
 - Country: When the country field was empty, I assigned the value "Unknown" to maintain consistency across records.
 - Release Date: I simplified the date information to the release year only, to streamline analysis.
+- Styles: Decomposed into 5 categories (the maximum for a release) with styles.1, styles.2, styles.3, styles.4, styles.5 for a more detailed and accurate analysis.
 - Price Fields (lowest_price, median_price, highest_price):
   - Replaced commas with periods to standardize decimal format.
   - Removed the $ sign to convert these fields to decimal format, making them suitable for numerical analysis.
