@@ -58,7 +58,7 @@ Analyze key trends such as:
 - Power BI: For data visualization and reporting.
 - Power Query: For data transformation and cleaning.
 - Dax Studio: For cleaned data exportation in csv. 
-- Python : For Jupyter notebooks and scripts.
+- Python : For Jupyter notebooks and cleaning script.
 
 **Data Transformation and Cleaning**
 
